@@ -1,0 +1,185 @@
+.pict{
+    width: 100px;
+    height: 80px;
+}
+.nav-item{
+    font-family: 'Philosopher', sans-serif;
+}
+.one{
+    background-color: #323232;
+}
+body{
+    background-color: #323232;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Philosopher', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qq{
+   
+    margin-top: 80px;
+    flex: 1;
+ 
+}
+.ww{
+
+    color: #E3B04B; 
+    margin-top:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+ 
+}
+
+.gg{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rr{
+    width: 380px;
+    height: 450px;
+    flex: 3;
+}
+ .ff{
+     margin-top: 200px;
+width: 450px;
+height: 300px;
+ }
+   
+ 
+
+.btn{
+   
+    font-size: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: none;
+    background-color: #DDC595;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.title{
+    text-align: center;
+    overflow: hidden;
+    font-size: 20px;
+}
+.title span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before, .title:after{
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 2px;
+    background-color: #E3B04B;
+    position: relative;
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+}
+
+.five{
+    width:240px;
+    height:160px;
+    flex: 1;
+    background-color: #DDC595;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.six{
+   width: 90%;
+}
+.seven{
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width:1100px) {
+    .qq{
+        display: none;
+            }
+            .ff{
+                margin-top: 20px;
+                width: 520px;
+                height: 400px;  
+            }
+            .rr{
+                width: 500px;
+                height: 600px;
+              
+            }
+    .two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .fly{
+    display: flex;
+    justify-content: center; 
+   }
+    .four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+  
+      .three{
+        margin: 10px;
+    }
+}
+
+@media all and (max-width:700px) {
+  
+
+.ww{
+    margin-top:10px;
+
+}
+
+
+}
+@media all and (max-width:500px){
+
+.rr{
+    width: 300px;
+    height: 400px;
+  
+}
+.ff{
+    margin-top: 20px;
+    width: 320px;
+    height: 250px;  
+}
+
+}
